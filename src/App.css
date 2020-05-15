@@ -1,1 +1,39 @@
+.loading-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
 
+.loading-app img {
+    margin: 2em;
+}
+
+.loading-app p {
+    color: #ff6665;
+    font-size: xxx-large;
+    text-align: center;
+    margin: 0;
+    -webkit-animation: loading-animation 1s infinite alternate linear;
+    -moz-animation: loading-animation 1s infinite alternate linear;
+    -o-animation: loading-animation 1s infinite alternate linear;
+    animation: loading-animation 1s infinite alternate linear;
+}
+
+@keyframes loading-animation {
+    from {
+        color: #ff6665;
+        font-size: smaller;
+    }
+
+    50% {
+        color: #6fff65;
+    }
+
+    to {
+        color: #ed65ff;
+        font-size: xxx-large;
+    }
+}
