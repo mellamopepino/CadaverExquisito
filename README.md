@@ -16,6 +16,7 @@ If you are going to make a PR to collaborate, take this rules in consideration:
 - You **can not fix or change anything of the previous code**. Again, do not mess around with someone else's shit, that's rude.
 - You can instead put some new code on already existing files. You can add and reuse everything you want.
 - You have to add something that is visible on the page! It does not matter what it is.
+- You have **two weeks**. :)
 
 Finally:
-- When your PR is merged you can pass this repo to someone else, so they collaborate! Remember that it's by turns, so it's important that you choose just **one person** as the next to collaborate. Choose wisely.
+- When submitting your PR, you should tag someone else, so they collaborate! Remember that it's by turns, so it's important that you choose just **one person** as the next to collaborate. Choose wisely.
